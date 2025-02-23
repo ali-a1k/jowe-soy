@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "No installation required for static site."
+  build:
+    commands:
+      - echo "No build step required for static site."
+  post_build:
+    commands:
+      - echo "Build complete. Artifacts are ready."
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
